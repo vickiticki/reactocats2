@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div class="container px-4">
+        <div className="container px-4">
           <nav>
-            <ul class="top left">
+            <ul className="top left">
               <li>
                 <a href="#">
                   <img
@@ -19,7 +19,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="#" class="bold">
+                <a href="#" className="bold">
                   Octodex
                 </a>
               </li>
@@ -36,13 +36,13 @@ function App() {
           </nav>
 
           <nav>
-            <ul class="top right">
+            <ul className="top right">
               <li>
                 <a href="https://twitter.com/githubdesign">
                   Follow us on Twitter
                 </a>
               </li>
-              <li class="back">
+              <li className="back">
                 <a href="https://github.com/">Back to GitHub.com</a>
               </li>
             </ul>
@@ -52,10 +52,10 @@ function App() {
 
       <main>
         <section>
-          <article class="test no1">
+          <article className="test no1">
             <a href="https://octodex.github.com//mona-the-rivetertocat/">
               <img
-                class="test no2"
+                className="test no2"
                 src="https://octodex.github.com//images/mona-the-rivetertocat.png"
                 alt="MonatheRivetertocat"
                 width="400"
@@ -81,7 +81,7 @@ function App() {
               </li>
             </ul>
           </article>
-          <article class="test no3">
+          <article className="test no3">
             <a href="https://octodex.github.com//terracottocat/">
               <img
                 src="https://octodex.github.com//images/Terracottocat_Single.png"
